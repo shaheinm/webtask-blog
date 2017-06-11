@@ -8,7 +8,7 @@ module.exports = (app) => {
   });
 
   app.post('/posts', (req, res) => {
-      const newPost = new req.storyModel(Object.assign({}, req.body, {created_at: Date.now()}));
+      const newPost = new req.postsModel(Object.assign({}, req.body, {created_at: Date.now()}));
       newPost.save((err, savedPost) => {
           res.json(savedPost)
       })
