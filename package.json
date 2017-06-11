@@ -1,0 +1,25 @@
+{
+  "name": "blog-webtask-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaheinm/webtask-blog-api.git"
+  },
+  "author": "Shahein Moussavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaheinm/webtask-blog-api/issues"
+  },
+  "homepage": "https://github.com/shaheinm/webtask-blog-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.5",
+    "webtask-tools": "^3.2.0"
+  }
+}
